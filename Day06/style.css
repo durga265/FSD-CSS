@@ -1,0 +1,46 @@
+p{
+    width:200px;
+    height:100px;
+    background-color: cadetblue;
+    color: white;
+    /* overflow: auto;
+    overflow: hidden;
+    overflow:visible; */
+    overflow: scroll;
+}
+ img{
+    width:350px;
+    height:200px;
+    margin-left: 15px;
+    opacity:0.4;
+     object-fit: cover;
+}
+
+/* gradients */
+
+/* lineargradient-left,right,top,bottom,diagonal */
+/* radialGradient-circle,to farthest, to closest */
+/* conicgradient */
+
+.linear {
+    background-image: repeating-linear-gradient(to left,red,yellow,blue,orange);
+    height: 200px;
+    /* background-color: red;  */
+    border: 2px solid black;
+   
+}
+
+.radial{
+    height:400px;
+    width:400px;
+    border:2px solid black;
+    margin: 20px;
+    background-image: repeating-radial-gradient(circle,red,yellow,green);
+}
+.rad1 {
+    height: 200px;
+    width: 200px;
+    margin:20px;
+    background-color: red;
+    background-image: repeating-radial-gradient(closest-side, red, yellow 10%, green 15%);
+  }
