@@ -1,0 +1,60 @@
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/*selectors:element, id, class, universal, attribute, pseudo, group*/
+/* table, tr, th, td{
+    border: 2px solid grey;
+}
+table{
+    margin:auto;
+    width:100%;
+    border-collapse: collapse;
+}
+tr:nth-child(even){
+    background-color: cadetblue;
+}
+
+ol, ul{
+    list-style-type: lower-greek;
+    margin-left: 150px;
+    list-style-type: none;
+    list-style:" ";
+    list-style-image: url("https://media2.giphy.com/media/3ornkbOjVuqWhB8GwE/giphy.gif?cid=6c09b952vkoek5ksvnhrgflkcs1nd9uujrccvsi542hxlc0n&ep=v1_gifs_search&rid=giphy.gif&ct=g");
+} */
+
+/* pseudo classes and selectors */
+/* a:link, */
+a:visited{
+    color: chartreuse;
+    font-weight: bold;
+}
+
+input:focus{
+    background-color: cadetblue;
+}
+a:hover{
+    color: crimson;
+    background-color: yellow;
+}
+
+div p:last-child{
+    color: blue;
+    font-size: 35px;
+    font-weight: 800;
+}
+div p::first-letter{
+    font-size:45px ;
+}
+
+div p::before{
+    content:"Before Text";
+    color:chartreuse
+}
+div p::after{
+    content:"After Text";
+    color:chartreuse
+}
