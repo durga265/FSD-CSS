@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.parent{
+    display: flex;
+}
+.items{
+    background-color: beige;
+    width:200px;
+    height:150px;
+    border:2px solid black;
+    margin:10px;
+}
+
+/* mobile - breakpoint -- 100px to 600px   */
+/* tablet - breakpoint -- 600px to 768px */
+/* desktop - breakpoint -- 780 to 1280px */
+
+/* media query in the same css file also, it should be written at the bottom of the css file*/
+@media only screen and(min-width:120px) and (max-width:550px){
+    h2{
+        color:blue;
+    }
+
+    .parent{
+        flex-direction:column;
+    }
+}
+
+@media screen and (min-width:680px) and (max-width:1080px){
+    h2{
+        background-color: chartreuse;
+        color: tomato;
+    }
+}
