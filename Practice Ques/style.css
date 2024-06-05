@@ -1,0 +1,55 @@
+div{
+    background-color: lightblue;
+    color: darkblue;
+    font-size: 18px;
+}
+
+.box{
+    width:200px;
+    height:150px;
+    border:2px solid black;
+    padding:10px;
+    margin:20px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .centered{
+     margin: auto; 
+} */
+
+
+/* fourth one */
+@media screen and (max-width:600px){
+    body{
+        background-color: lightgray;
+    }
+}
+
+a{
+    color: red;
+}
+a:hover{
+    color: green;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2,200px);
+    grid-template-rows: repeat(2,200px);
+    gap:10px;
+}
+.item{
+    width:200px;
+    height:200px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: lightblue;
+
+}

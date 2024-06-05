@@ -3,7 +3,7 @@
     margin:0;
     padding:0;
 }
-/* #parent{
+#parent{
     width:80%;
     height:80vh;
     background-color: #fadf72;
@@ -27,7 +27,7 @@
     width:99.5%;
     clear:both;
     height:200px;
-} */
+}
 
 #main{
     width:100%;
