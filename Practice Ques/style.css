@@ -38,8 +38,10 @@ a:hover{
 
 .grid{
     display: grid;
+    background-color: lightblue;
     grid-template-columns: repeat(2,200px);
     grid-template-rows: repeat(2,200px);
+    justify-content:center;
     gap:10px;
 }
 .item{
@@ -50,6 +52,6 @@ a:hover{
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: lightblue;
+    background-color:bisque;
 
 }
